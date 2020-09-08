@@ -1,0 +1,44 @@
+h1 {
+ color: #BBBBBF;
+ background-color: #475B5A;
+}
+
+/*
+p {
+  background-color: #475B5A;
+  color: #FFFFFF;
+}
+*/
+
+#p1 {
+  background-color: #52d1dc;
+  color: #475B5A;
+}
+#p2 {
+  background-color: #8D8E8E;
+  color: #52D1DC;
+}
+
+a:link {
+ color: #ffffff;
+}
+
+a:visited {
+ color: #8D8E8E;
+}
+
+a:active {
+ color: #00ffff;
+}
+
+a:hover {
+ color: #52d1dc;
+}
+
+#pdiv {
+  color: #52D1DC;
+}
+
+.span{
+  color: #52d1dc;
+}
