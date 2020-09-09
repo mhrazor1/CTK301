@@ -1,0 +1,42 @@
+/*#CTK {
+  color: #af0000;
+}
+*/
+h1 {
+  color: #ffffff;
+  background-color: #af0000;
+}
+
+#contact {
+  color: #af0000;
+}
+
+#CT {
+  font-weight: bold;
+  color: #af0000;
+}
+
+h2 {
+  color: #ffffff;
+  background-color: #af0000;
+}
+
+.reqList {
+  color: #af0000;
+}
+
+a:link {
+ color: #af0000;
+}
+
+a:visited {
+ color: #00ff00;
+}
+
+a:active {
+ color: #af0000;
+}
+
+a:hover {
+ color: #ffff00;
+}
