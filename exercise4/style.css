@@ -1,0 +1,51 @@
+.customtext {
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+font-weight: bold;
+font-size: 20px;
+}
+
+.fontcombined {
+font: bold 20px Arial, Helvetica, sans-serif;
+}
+
+body {
+background-color: #ffeeee;
+background-image: url(static.jpg);
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+nav {
+background-color: #aaaaff;
+}
+
+.boxmodel {
+border: 2px solid #ffaa00;
+padding: 20px;
+margin: 10px 10px 10px 10px;
+}
+
+/*        TOP  RGHT BOTM LEFT */
+margin: 10px 10px 10px 10px;
+
+.zeroout {
+margin: 0;
+padding: 0;
+}
+.pwidth {
+width: 100px;
+}
+
+.textprops{
+  text-align: right;
+  letter-spacing: 20px;
+  line-height: 20px;
+}
+
+.imgbox {
+border: 2px solid #ff0000;
+padding: 10px 10px 10px 10px;
+margin: 20px 20px 20px 20px;
+background-color: #0000ff;
+}
