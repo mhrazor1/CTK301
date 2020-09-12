@@ -10,6 +10,7 @@ font: bold 20px Arial, Helvetica, sans-serif;
 }
 
 body {
+font-family: Helvetica;
 background-color: #ffeeee;
 background-image: url(static.jpg);
 background-repeat: no-repeat;
