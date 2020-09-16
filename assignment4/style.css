@@ -1,0 +1,51 @@
+/*#CTK {
+  color: #af0000;
+}
+*/
+body {
+font-family: Helvetica;
+background-image: url(static.jpg);
+/*background-color: #ffeeee;
+background-repeat: no-repeat;
+background-position: top left;*/
+}
+
+#portfolio {
+  text-align: center;
+}
+
+.headImage {
+border: 10px solid #000000;
+padding: 5px;
+margin: 20px 20px 20px 20px;
+background-color: #ffffff;
+}
+
+#CTKDesc {
+  text-align: justify;
+}
+
+.classDesc{
+ background-color: #ffffff;
+}
+
+h1 {
+  color: #ff9900;
+  font-style: italic;
+  font-weight: normal;
+}
+h2 {
+  color: #ff9900;
+  font-style: italic;
+  font-weight: normal;
+}
+h3 {
+  color: #ff9900;
+  font-style: italic;
+  font-weight: normal;
+}
+h4 {
+  color: #ff9900;
+  font-style: italic;
+  font-weight: normal;
+}
