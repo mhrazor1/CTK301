@@ -1,0 +1,56 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper{
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 1px solid #ff0000;
+  background-color: #ffffff;
+  font-family: Louis George Café, sans-serif;
+  font-size: 150%;
+  line-height: 125%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 75px 100px auto 50px;
+}
+
+header{
+  font-size: 200%;
+  text-align: center;
+  grid-column: span 12;
+  grid-row: 100px;
+}
+
+nav{
+    grid-column: span 12;
+    margin: auto;
+}
+nav li{
+  display: inline-block;
+  padding: 20px;
+  padding-left: 0;
+}
+main{
+  grid-column: span 12;
+}
+#p1{
+  /*border: 1px solid red;*/
+  text-align: left;
+  padding-right: 20px;
+}
+
+.floatIMG{
+  float: left;
+  /* margin: 20px; */
+  margin-top: 0px;
+  padding: 20px;
+
+}
+footer{
+  grid-column: span 12;
+  grid-row: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
