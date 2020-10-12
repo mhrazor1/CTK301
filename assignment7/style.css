@@ -85,6 +85,7 @@ nav li:hover{
 #welcome,#about,#gallery{
   border-left: none;
   text-decoration: none;
+  color: #66ccff;
 }
 #blank{
   border-left: none;
