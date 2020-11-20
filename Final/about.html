@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Miles' Site</title>
+	<script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	<script src="https://kit.fontawesome.com/eaa5bf7492.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://use.typekit.net/mhm0wuf.css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/animsition.css">
+	<script src="js/animsition.js"></script>
+</head>
+<body>
+	<div class="animsition">
+		<header>
+			<h1><a href="mysite.html" class="animsition-link">MILES HOWLEY</a></h1>
+		</header>
+		<nav>
+			<ul>
+				<li id="about"><a href="about.html" class="animsition-link">ABOUT          <i id="indicator" class="fas fa-caret-left"></i></a></li>
+				<li id="graphic"><a href="#" class="animsition-link">GRAPHIC</a></li>
+				<li id="audio"><a href="#" class="animsition-link">AUDIO</a></li>
+				<li id="video_active"><a href="#" class="animsition-link">VIDEO</a></li>
+			</ul>
+		</nav>
+		<main id="aboutMain">
+		  <img id="self" src="images\self.jpg" alt="self">
+
+			<p id="about_blurb">Hello!<br>
+		  I'm Miles Howley:<br>A student in Creative Technologies at Illinois State University.<br> This is my online portfolio, go ahead and take a look around!</p>
+			<div id="contact">
+				<p id="contact2">Contact:</p>
+				<p id="email">mhrazor1@gmail.com</p>
+			</div>
+</main>
+		<footer>
+			<h2>Copyright Miles Howley - 2020</h2>
+			<a id="vsco" href="https://vsco.co/-miles-/gallery" target="_blank"><p><i class="fas fa-camera"></i>         VSCO</p></a>
+
+		</footer>
+		<script>
+	  $(document).ready(function() {
+	    $('.animsition').animsition();
+	  });
+	  </script>
+	</div>
+</body>
+</html>
