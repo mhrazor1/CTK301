@@ -90,141 +90,22 @@ main{
   grid-column-gap: 24px;
   padding-top: 24px;
 }
-#aboutMain{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 0.5fr;
-  gap: 0px 0px;
-  grid-template-areas:
-    "self about_blurb about_blurb about_blurb"
-    "contact about_blurb about_blurb about_blurb";
-}
-  #blurb{
-    font-size: 30pt;
-    font-weight: 500;
-    text-align: right;
+
+  #audio_blurb{
+    background-color: #FF5A5A;
     color: #EEEEEE;
-
-    background-color: #FF5A5A;
-    padding: 24px;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: -24px;
-    }
-  #about_blurb{
-    font-size: 30pt;
-    font-weight: 500;
-    color: #EEEEEE;
-    grid-area: about_blurb;
-    background-color: #FF5A5A;
-    padding: 36px;
-    padding-top: 20px;
-    margin-top: 0;
-    margin-bottom: 0;
-
-
-  }
-  #videoplayer{
-    padding: 36px;
-    /* border: 24px solid #FF5A5A; */
-    background-color: #FF5A5A;
-    margin-left: 0;
-  }
-  #graphic1{
-    padding: 36px;
-    width: 600px;
-    /* border: 24px solid #FF5A5A; */
-    background-color: #FF5A5A;
-    margin-left: 0;
-  }
-  #self{
-    width: 300px;
-    padding: 36px;
-    padding-bottom: 0px;
-    padding-right: 0px;
-    background-color: #FF5a5a;
-    grid-area: self;
-  }
-  #contact{
     font-size: 20pt;
-    grid-area: contact;
-    color: #EEEEEE;
-    background-color: #FF5a5a;
-    padding: 36px;
-    padding-top: 20px;
     margin: 0;
-  }
-  #contact2{
-    font-weight: bold;
-    padding: 0;
-    margin: 0;
-  }
-  #email{
-    padding: 0;
-    margin: 0;
-  }
-  .left{
-    grid-column: span 6;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    background-color: #FF5A5A;
-    padding-bottom: 0;
-  }
-    #somewhere{
-      padding: 24px;
-      margin-bottom: 0;
-    }
-    .left h3{
-    margin-top: 0px;
-    grid-column: span 6;
-    color: #EEEEEE;
-    padding-top: 24px;
-    padding-right: 24px;
-    padding-left: 24px;
-    padding-bottom: 12px;
-    font-size: 24pt;
-    margin-bottom: 0px;
-      /* line-height: 150%; */
-    }
-    .right{
-      grid-column: span 6;
-      display: grid;
-      grid-template-columns: repeat(6, 1fr);
-      background-color: #FF5A5A;
-      padding-bottom: 0;
-    }
-      #explore{
+    padding: 24px;
     width: 540px;
-    padding-right: 24px;
-    padding-left: 24px;
-    margin-bottom: 0;
-    margin-top: 0;
+  }
 
-      }
-    .right h3{
-    margin-top: 0px;
-    padding-top: 12px;
-    grid-column: span 6;
-    color: #EEEEEE;
-    padding-left: 24px;
-    font-size: 24pt;
-      }
-
-#arrow1,#arrow2,#arrow3,#arrow4,#arrow5,#arrow6{
-  grid-column: span 1;
-  padding-left: 24px;
-  /* padding-top: 12px; */
-}
-#rworks{
-  grid-column: span 6;
-  text-align: center;
-  color: #FF5A5A;
-  font-size: 42pt;
-  margin-top: -24px;;
-  margin-bottom: 12px;
-  letter-spacing: 2px;
-}
+  #audio_player{
+    background-color: #FF5A5A;
+    padding: 37px;
+    width: 540px;
+    margin-left: -27px;
+  }
 
 footer{
   background-color: #FF5A5A;
